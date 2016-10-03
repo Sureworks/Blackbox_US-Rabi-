@@ -1,0 +1,7 @@
+None
+MODBUS
+HART
+Profibus DP
+Profibus PA
+Fieldbus
+DeviceNET

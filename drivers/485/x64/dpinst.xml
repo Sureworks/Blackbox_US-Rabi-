@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dpInst>
+	<enableNotListedLanguages/>
+	<legacyMode/>
+	<language code="0x0409">
+	   	<dpinstTitle>Microflex USB Drivers</dpinstTitle>
+      	<welcomeTitle>USB Driver Installer</welcomeTitle>
+    	<welcomeIntro>This wizard will pre-install the drivers for your USB device.</welcomeIntro>
+    	<installHeaderTitle>Installing the software for your device drivers...</installHeaderTitle>
+    	<finishTitle>Finished installing your device drivers.</finishTitle>
+    	<finishText>When you connect the device to the USB port the installation will be completed.</finishText>
+    </language>	
+	<watermarkPath>Installer.bmp</watermarkPath>
+</dpInst>

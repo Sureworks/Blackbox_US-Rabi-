@@ -1,0 +1,16 @@
+MODBUS 2
+HART/current 4
+profibus DP 6
+profibus PA 8
+devicenet 10
+fieldbus 12
+power 14
+pulse 16
+
+PN:
+P-CKM CKM 190-230-*  *length in meters
+
+panel mounting:
+U-31517  $109.40
+
+
