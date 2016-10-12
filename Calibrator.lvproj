@@ -297,13 +297,19 @@
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{43122855-94E8-4DF1-9215-F923E877CBC5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7E845D4A-6B4A-4B6E-9804-CD92436232DE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SourceCode/Main/Main.vi</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_current.vit</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_current.vit</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_MODBUS.vit</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -312,7 +318,7 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_MODBUS.vit</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_pulses.vit</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -320,38 +326,29 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_pulses.vit</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SourceCode/Main/Main.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SourceCode/Main/Main_updated.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/DataFiles</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/DataFiles</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ReportFiles</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/ReportFiles</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SupportFiles</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/SupportFiles</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Calibrator</Property>
 				<Property Name="TgtF_internalName" Type="Str">Calibrator</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 </Property>
