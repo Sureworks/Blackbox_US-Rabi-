@@ -1,0 +1,10 @@
+[Communication]
+Swap_MODBUS_Ports=False
+[Debug]
+Leave_excel_open=True
+[Reporting]
+English="17025 Cert and SSC Cal Sheet (01-2009)-EN.xlt"
+Spanish="17025 Cert and SSC Cal Sheet (01-2009)-ES.xlt"
+French="17025 Cert and SSC Cal Sheet (01-2009)-FR.xlt"
+Russian="17025 Cert and SSC Cal Sheet (01-2009)-RU.xlt"
+Gas_english="Final cal sn. 14512664.xlt"

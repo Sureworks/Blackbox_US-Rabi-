@@ -44,6 +44,7 @@
 		<Item Name="SupportFiles" Type="Folder" URL="../SupportFiles">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="emerson_electric-logo.ico" Type="Document" URL="../emerson_electric-logo.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -279,7 +280,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{12CBE2DA-CCD0-4627-8979-A94C4ED4AD62}</Property>
-				<Property Name="Bld_version.build" Type="Int">87</Property>
+				<Property Name="Bld_version.build" Type="Int">92</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Blackbox.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../EXE/Blackbox.exe</Property>
@@ -287,19 +288,25 @@
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../EXE/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../EXE/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[2].destName" Type="Str">Subpanels</Property>
-				<Property Name="Destination[2].path" Type="Path">../EXE/Spreadsheet filling/Sub VIs</Property>
+				<Property Name="Destination[2].destName" Type="Str">DataFiles</Property>
+				<Property Name="Destination[2].path" Type="Path">../EXE/DataFiles</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[3].destName" Type="Str">drivers</Property>
-				<Property Name="Destination[3].path" Type="Path">../EXE/drivers</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[3].destName" Type="Str">ReportFiles</Property>
+				<Property Name="Destination[3].path" Type="Path">../EXE/ReportFiles</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7E845D4A-6B4A-4B6E-9804-CD92436232DE}</Property>
+				<Property Name="Destination[4].destName" Type="Str">SupportFiles</Property>
+				<Property Name="Destination[4].path" Type="Path">../EXE/SupportFiles</Property>
+				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/emerson_electric-logo.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FBEA3665-7F1C-4430-977D-97E9EE9BCBC5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_current.vit</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
@@ -308,7 +315,7 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_MODBUS.vit</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
@@ -317,7 +324,7 @@
 				<Property Name="Source[2].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample_pulses.vit</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
@@ -330,21 +337,24 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SourceCode/Main/Main.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/DataFiles</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ReportFiles</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SupportFiles</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
@@ -438,7 +448,7 @@
 				<Property Name="DistPart[6].productName" Type="Str">NI-Industrial Communications for DeviceNet 16.0</Property>
 				<Property Name="DistPart[6].upgradeCode" Type="Str">{65D6F8D0-FAF5-4201-9D59-505159496211}</Property>
 				<Property Name="DistPartCount" Type="Int">7</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Blackbox Cal/Black box calibrator installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Blackbox_US-Rabi--master/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Black box calibrator installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{6BAE12EF-7615-455C-B3F6-4577C1CC6B7B}</Property>
@@ -450,7 +460,6 @@
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{8414F718-0CEA-418D-9E7E-5C19FB207154}</Property>
-				<Property Name="MSI_welcomeImageID" Type="Ref"></Property>
 				<Property Name="MSI_windowMessage" Type="Str">Flow Lifecycle Calibration Services installation. This software will install all of the necessary files to run the calibration software.  Please see the installation guide document for more information.</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Blackbox installer </Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
@@ -467,78 +476,15 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{1EAA868C-4622-4E19-B9AC-A74903B2619F}</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{6BAE12EF-7615-455C-B3F6-4577C1CC6B7B}</Property>
 				<Property Name="Source[0].File[1].name" Type="Str">run_driver_setup.bat</Property>
-				<Property Name="Source[0].File[1].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[1].Shortcut[0].name" Type="Str">Set-up drivers</Property>
-				<Property Name="Source[0].File[1].Shortcut[0].subDir" Type="Str">Calibrator</Property>
-				<Property Name="Source[0].File[1].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[1].tag" Type="Ref"></Property>
-				<Property Name="Source[0].FileCount" Type="Int">2</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Calibrator</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Calibrator</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{6BAE12EF-7615-455C-B3F6-4577C1CC6B7B}</Property>
 				<Property Name="Source[1].File[0].dest" Type="Str">{6BAE12EF-7615-455C-B3F6-4577C1CC6B7B}</Property>
 				<Property Name="Source[1].File[0].name" Type="Str">comm_map.csv</Property>
 				<Property Name="Source[1].File[0].tag" Type="Ref"></Property>
-				<Property Name="Source[1].FileCount" Type="Int">1</Property>
-				<Property Name="Source[1].name" Type="Str">data</Property>
-				<Property Name="Source[1].tag" Type="Ref"></Property>
-				<Property Name="Source[1].type" Type="Str">Folder</Property>
-				<Property Name="Source[2].dest" Type="Str">{D0A37FC9-0FC6-47B1-8E42-C4318807E1F9}</Property>
-				<Property Name="Source[2].name" Type="Str">Blackbox User guide.pdf</Property>
-				<Property Name="Source[2].tag" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{D0A37FC9-0FC6-47B1-8E42-C4318807E1F9}</Property>
-				<Property Name="Source[3].name" Type="Str">Pinout.pdf</Property>
-				<Property Name="Source[3].tag" Type="Ref"></Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-			</Item>
-			<Item Name="Startup" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{7E2840A2-89B7-4930-A16C-6F5261004AE3}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{8E588967-8949-4EE7-9063-520EF0F2C875}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Toshiba.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{725AFAB7-7DBC-48F1-AB7D-0BF745EEAC58}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Startup</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../EXE</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{A0476D2A-3292-4246-8E18-CDDF72CFA00F}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Startup.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../EXE/Startup.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../EXE/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{43122855-94E8-4DF1-9215-F923E877CBC5}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SourceCode/Startup/Startup_Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SourceCode/Main/Sample.vit</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Toshiba</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Startup</Property>
-				<Property Name="TgtF_internalName" Type="Str">Startup</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Toshiba</Property>
-				<Property Name="TgtF_productName" Type="Str">Startup</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{46BAB2D5-BCC8-4F6F-A7D4-F4B9269F1EBB}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Startup.exe</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
