@@ -5,7 +5,7 @@ CRIO-DualChron = "10.0.0.10"
 CRIO-UUTsim = "10.0.0.25"
 
 [My Computer]
-My Computer = "10.100.100.10"
+My Computer = "172.22.11.1"
 
 [NI-cRIO9075-0174BEE8]
 NI-cRIO9075-0174BEE8 = "192.168.2.102"
